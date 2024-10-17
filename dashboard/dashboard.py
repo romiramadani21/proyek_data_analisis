@@ -11,8 +11,8 @@ sns.set(style='dark')
 st.header('Bike Rental Dashboard 🚲')
 
 # Membaca data
-day_df = pd.read_csv("D:\Data Science - Dicoding\proyek_data_analisis\submission\data\day.csv")
-hr_df = pd.read_csv("D:\Data Science - Dicoding\proyek_data_analisis\submission\data\hour.csv")
+day_df = pd.read_csv("dashboard/day.csv")
+hr_df = pd.read_csv("dashboard/hour.csv")
 
 # Menghapus duplikasi
 day_df.drop_duplicates(inplace=True)
